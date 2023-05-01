@@ -74,7 +74,7 @@ for(let i=0; i<answerLength; i++){
         if(quizeIndex<quizeLength){
             setup();
         }else{
-            window.location.href='file:///C:/Users/ibuki/Desktop/web/2/main/main.html';
+            window.location.href='https://ibu0125.github.io/web/main/main.html';
             if(value<60){
                 window.alert("あなたの正答率は"+value+"％です。残念な結果です...色盲だな");
             }else{

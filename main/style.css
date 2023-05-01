@@ -1,0 +1,300 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    user-select: none;
+    /* background-color: rgba(225, 225, 225, 0.5); */
+    /* display: none; */
+}
+
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+a{
+    text-decoration: none;
+    color: #432;
+}
+
+
+/* header */
+
+.page-header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 100;
+    /* width: 100%; */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7%;
+    border-bottom: 1px #432 solid;
+    height: 13%;
+}
+
+.page-header h1{
+    color: #432;
+    margin-bottom: 0;
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.main-nav li{
+    margin-left: 60px;
+}
+.main-nav a{
+    color:#432;
+}
+
+.main-nav a:hover{
+    color: #bd0;
+}
+
+
+/* background */
+
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat:no-repeat;
+}
+
+/* #home{
+    background-image: url(./home-bg.jpg);
+    background-color: rgba(225, 225, 225, 0.5);
+    background-blend-mode: lighten;
+    transform: scale(-1,1);
+    min-height: 100vh;
+} */
+
+/* #home .wrapper{
+    transform: scale(-1,1);
+} */
+
+/* footer */
+
+footer .wrapper{
+    background-color: #432;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+/* main-page */
+
+.main-page{
+    z-index: 2;
+}
+
+.main-content{
+    display: flex;
+    margin-top: 10%;
+}
+
+.main-article{
+    /* margin-top: 10%; */
+    width: 70%;
+    margin-left: 0;
+}
+
+.main-intro{
+    margin-bottom: 15%;
+}
+
+/* test1 */
+
+.test1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.test1 img{
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+
+
+.test1-qestion{
+    margin-left: 8%;
+}
+
+.test1-qestion p{
+    font-size: 1rem;
+}
+
+.ans-watch{
+    color:#432;
+    background: rgba(225, 225, 225, 0.5);
+    border-radius: 6px;
+    padding: 4px 5px;
+    /* box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.3); */
+}
+
+
+.ans-watch:hover{
+    /* color: #bd0; */
+    cursor: pointer;
+}
+
+input:checked ~ .ans-watch{
+    color: #3333;
+}
+
+#test1-question{
+    display: none;
+}
+
+.ans{
+    opacity: 0;
+}
+
+.ans p{
+    font-size: 1rem;
+    margin-top: 0;
+    background-color: rgba(225, 225, 225, 0.5);
+    padding: 15px;
+    border-radius: 6px;
+}
+
+input:checked ~ .ans{
+    opacity: 1;
+}
+
+
+/* test2 */
+
+.test2{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: auto;
+    text-align: center;
+}
+
+.test2 a{
+    font-weight: bold;
+    color: blueviolet;
+    padding: 12px 15px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.3);
+    background-color: #ddd;
+    /* margin-left: 50%; */
+}
+
+.test2 a:hover{
+    cursor: pointer;
+}
+
+.test2 a:active{
+    box-shadow: none;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.test-page{
+    /* opacity: 0; */
+    z-index: 1;
+}
+
+/* .dl-1{
+    display: flex;
+    padding: 0;
+} 
+.dl-2 {
+    display: flex;
+}
+
+.dl-1 img{
+    width: 100%;
+    height: 100%;
+}
+.line3{
+    width: 33.3%;
+} */
+
+.display{
+    opacity: 1;
+}
+
+
+/* aside */
+
+.home-aside{
+    z-index: 3;
+    position: relative;
+    width: 20%;
+    padding-left: 0;
+    margin-top: 36px;
+    height: 50%;
+}
+
+.sub-title{
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #bd0 solid;
+    font-weight: normal;
+}
+
+.sub-content{
+    margin-bottom: 60px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.sub-content h3{
+    font-size: 0.5rem;
+}
+
+.sub-content li{
+    border-bottom: 1px #ddd solid;
+}
+
+.sub-content a{
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+
+.sub-content a:hover{
+    cursor: pointer;
+    color: #bd0;
+}
+
+/* レスポンスシブ対応 */
+
+@media screen and (max-width:600px) {
+    .page-header h1{
+        font-size: 1rem;
+        margin-bottom: 0;
+        margin-top: 3%;
+    }
+
+    header{
+        background-color: #fff;
+    }
+
+    .main-nav{
+        margin-top: 12%;
+        font-size: 0.7rem;
+    }
+} 

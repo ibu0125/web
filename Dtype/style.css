@@ -65,8 +65,31 @@ a{
 }
 
 .main-content{
-    display: flex;
     margin-top: 10%;
+}
+
+.main-content p{
+    padding-bottom: 5%;
+}
+
+.D-img{
+    display: flex;
+}
+
+.D-img img{
+    width: 45%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.caption{
+    padding-top: 4%;
+}
+
+
+
+.text2{
+    padding-top: 5.3%;
 }
 
 /* footer */
@@ -75,12 +98,14 @@ footer .wrapper{
     background-color: #432;
     text-align: center;
     padding: 20px 0;
+    margin-bottom: 0;
 }
 
 footer p{
     color: #fff;
     font-size: 0.875rem;
 }
+
 
 /* レスポンスシブ対応 */
 
@@ -109,10 +134,10 @@ footer p{
         font-size: 0.75rem;
     }
 
+
     .main-nav li{
         margin-left: 30px;
     }
-
 
     .main-article{
         width: 100%;

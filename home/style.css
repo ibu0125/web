@@ -112,10 +112,9 @@ p{
 }
 
 /* レスポンスシブ対応 */
-
 @media screen and (max-width:600px) {
     .page-header h1{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-bottom: 0;
         margin-top: 3%;
     }
@@ -126,19 +125,23 @@ p{
 
     .main-nav{
         margin-top: 12%;
+        font-size: 0.8rem;
+    }
+
+    .home-content{
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        padding-top: 25%;
+    }
+
+    .home-content p{
         font-size: 0.7rem;
     }
 
     .home-title{
-        font-size: 0;
-    }
-
-    .button{
-        display: none;
-    }
-
-    #home{
-        background-image: none;
-        
+        font-size: 1.2rem;
     }
 } 

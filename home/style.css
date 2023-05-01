@@ -110,6 +110,7 @@ p{
     text-transform: none;
     color: #432;
 }
+
 /* レスポンスシブ対応 */
 
 @media screen and (max-width:600px) {
@@ -138,14 +139,15 @@ p{
         right: 0;
         left: 0;
         margin: auto;
-        padding-top: 35%;
+        padding-top: 45%;
     }
 
     .home-content p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .home-title{
         font-size: 1.0rem;
     }
 } 
+

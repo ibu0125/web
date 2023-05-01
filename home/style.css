@@ -110,8 +110,8 @@ p{
     text-transform: none;
     color: #432;
 }
-
 /* レスポンスシブ対応 */
+
 @media screen and (max-width:600px) {
     .page-header h1{
         font-size: 1.2rem;
@@ -125,7 +125,11 @@ p{
 
     .main-nav{
         margin-top: 12%;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
+    }
+
+    .main-nav li{
+        margin-left: 30px;
     }
 
     .home-content{
@@ -134,7 +138,7 @@ p{
         right: 0;
         left: 0;
         margin: auto;
-        padding-top: 25%;
+        padding-top: 35%;
     }
 
     .home-content p{
@@ -142,6 +146,6 @@ p{
     }
 
     .home-title{
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
 } 

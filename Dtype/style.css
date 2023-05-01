@@ -81,3 +81,62 @@ footer p{
     color: #fff;
     font-size: 0.875rem;
 }
+
+/* レスポンスシブ対応 */
+
+@media screen and (max-width:600px) {
+
+    .main-content{
+        height: 100vh;
+    }
+
+    .page-header h1{
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        margin-top: 3%;
+        padding-bottom: 0;
+    }
+
+    .page-header{
+        position: initial;
+        height: 60px;
+    }
+
+    .main-nav{
+        margin-top: 12%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 0.8rem;
+    }
+
+
+    .main-article{
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-content{
+        margin-top: 0;
+    }
+
+    .main-content h2{
+        font-size: 1rem;
+    }
+
+    .main-content p{
+        font-size: 0.8rem;
+    }
+
+    .caption{
+        margin-bottom: auto;
+    }
+
+    .D-img{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+} 

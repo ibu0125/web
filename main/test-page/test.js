@@ -76,9 +76,9 @@ for(let i=0; i<answerLength; i++){
         }else{
             window.location.href='https://ibu0125.github.io/web/main/main.html';
             if(value<60){
-                window.alert("あなたの正答率は"+value+"％です。残念な結果です...色盲だな");
+                window.alert("あなたの正答率は"+value+"％です。色覚障害の疑いがあります");
             }else{
-                window.alert("あなたの正答率は"+value+"％です。あなたは普通の目です！よかったじゃねーか！！")
+                window.alert("あなたの正答率は"+value+"％です。あなたはいい目をしています")
             }
         }
     });
